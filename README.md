@@ -4,8 +4,8 @@ An AI-powered application that automatically generates engaging posts, captions,
 
 ## 👤 Author
 
-**GOPESH AGGARWAL**  
-Roll No: 2301730158
+**Yash Vashisth**  
+Roll No: 2301730149
 
 
 ## 📋 Description
