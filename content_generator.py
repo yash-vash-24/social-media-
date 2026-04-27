@@ -1,7 +1,7 @@
 """
 Social Media Content Generator
-Author: GOPESH AGGARWAL
-Roll No: 2301730158
+Author: Yash Vashisth
+Roll No: 2301730149
 
 Description:
 An AI-powered application that automatically generates engaging posts, 
@@ -12,7 +12,7 @@ from transformers import pipeline
 import random
 
 # Initialize the text generation model
-# Created by: GOPESH AGGARWAL (2301730158)
+# Created by: Yash Vashisth (2301730149)
 print("Loading AI model... Please wait.")
 generator = pipeline("text-generation", model="gpt2")
 print("Model loaded successfully!")
@@ -21,7 +21,7 @@ print("Model loaded successfully!")
 def generate_post(topic):
     """
     Generate an engaging social media post using AI
-    Author: GOPESH AGGARWAL (2301730158)
+    Author: Yash Vashisth (2301730149)
     
     Args:
         topic (str): The topic or keyword for the post
@@ -99,7 +99,7 @@ def generate_post(topic):
 def generate_caption(topic):
     """
     Generate a catchy caption using AI
-    Author: GOPESH AGGARWAL (2301730158)
+    Author: Yash Vashisth (2301730149)
     
     Args:
         topic (str): The topic or keyword for the caption
@@ -164,7 +164,7 @@ def generate_caption(topic):
 def generate_hashtags(topic):
     """
     Generate relevant hashtags
-    Author: GOPESH AGGARWAL (2301730158)
+    Author: Yash Vashisth (2301730149)
     
     Args:
         topic (str): The topic or keyword for hashtags
@@ -195,12 +195,12 @@ def generate_hashtags(topic):
 def main():
     """
     Main function to run the Social Media Content Generator
-    Developed by: GOPESH AGGARWAL (2301730158)
+    Developed by: Yash Vashisth (2301730149)
     """
     print("\n" + "="*60)
     print("   SOCIAL MEDIA CONTENT GENERATOR")
-    print("   Developed by: GOPESH AGGARWAL")
-    print("   Roll No: 2301730158")
+    print("   Developed by: Yash Vashisth")
+    print("   Roll No: 2301730149")
     print("="*60 + "\n")
     
     topic = input("Enter topic or keyword: ")
@@ -229,7 +229,7 @@ def main():
     print(hashtags)
     print("\n" + "="*60)
     print("\n✅ Content generated successfully!")
-    print("   Created by: GOPESH AGGARWAL (2301730158)")
+    print("   Created by: Yash Vashisth (2301730149)")
     print("="*60 + "\n")
 
 
